@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login - NEU Campus Navigator</title>
+    <meta
+      name="description"
+      content="NEU Campus Navigator: An Integrated Building and Room Wayfinding with Schedule Manager for New Era University"
+    />
+    <meta property="og:title" content="Login - NEU Campus Navigator" />
+    <meta
+      property="og:description"
+      content="NEU Campus Navigator: An Integrated Building and Room Wayfinding with Schedule Manager for New Era University"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Open Sans;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.625;
+        color: var(--dl-color-secondary-400);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/playground_assets/logo1.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      html * {
+          -webkit-font-smoothing: antialiased;
+      }
+      input::placeholder, textarea::placeholder {
+         color: #d2d6da;
+      }
+    </style>
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./login.css" rel="stylesheet" />
+
+      <div class="login-container">
+        <div class="header-full-header">
+          <nav class="header-full-nav">
+            <div class="header-full-container">
+              <a href="index.html" class="header-full-navlink Large">
+                NEU Campus Navigator
+              </a>
+              <div class="header-full-menu">
+                <a href="index.html" class="header-full-navlink1 Large">Home</a>
+                <a href="contact-us.html" class="header-full-navlink2 Large">
+                  Contact Us
+                </a>
+                <span class="header-full-text Large">About NEU</span>
+              </div>
+              <div class="header-full-container1">
+                <div class="header-full-container2">
+                  <a href="login.html" class="header-full-navlink3">
+                    <div class="primary-pink-button-container">
+                      <button
+                        class="primary-pink-button-button button ButtonSmall"
+                      >
+                        <span>Login</span>
+                      </button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div data-role="BurgerMenu" class="header-full-burger-menu">
+                <div
+                  data-thq="thq-dropdown"
+                  class="header-full-thq-dropdown list-item"
+                >
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    class="header-full-dropdown-toggle"
+                  >
+                    <div
+                      data-thq="thq-dropdown-arrow"
+                      class="header-full-dropdown-arrow"
+                    >
+                      <svg viewBox="0 0 1024 1024" class="header-full-icon">
+                        <path
+                          d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <ul
+                    data-thq="thq-dropdown-list"
+                    class="header-full-dropdown-list"
+                  >
+                    <li
+                      data-thq="thq-dropdown"
+                      class="header-full-home list-item"
+                    >
+                      <a href="index.html">
+                        <div
+                          data-thq="thq-dropdown-toggle"
+                          class="header-full-dropdown-toggle1"
+                        >
+                          <span class="header-full-home1">Home</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      class="header-full-dropdown list-item"
+                    >
+                      <a href="contact-us.html">
+                        <div
+                          data-thq="thq-dropdown-toggle"
+                          class="header-full-dropdown-toggle2"
+                        >
+                          <span class="header-full-contact-us">Contact Us</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      class="header-full-dropdown1 list-item"
+                    >
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        class="header-full-dropdown-toggle3"
+                      >
+                        <span class="header-full-about-neu">About NEU</span>
+                      </div>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      class="header-full-log-in list-item"
+                    >
+                      <a href="login.html">
+                        <div
+                          data-thq="thq-dropdown-toggle"
+                          class="header-full-dropdown-toggle4"
+                        >
+                          <span class="header-full-log-in1">Login</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="login-login">
+          <div class="login-container1">
+            <div class="login-form">
+              <h2 class="login-text">Log In</h2>
+              <form class="login-form1">
+                <div class="login-container2">
+                  <svg viewBox="0 0 731.4285714285713 1024" class="login-icon">
+                    <path
+                      d="M731.429 799.429c0 83.429-54.857 151.429-121.714 151.429h-488c-66.857 0-121.714-68-121.714-151.429 0-150.286 37.143-324 186.857-324 46.286 45.143 109.143 73.143 178.857 73.143s132.571-28 178.857-73.143c149.714 0 186.857 173.714 186.857 324zM585.143 292.571c0 121.143-98.286 219.429-219.429 219.429s-219.429-98.286-219.429-219.429 98.286-219.429 219.429-219.429 219.429 98.286 219.429 219.429z"
+                    ></path>
+                  </svg>
+                  <input
+                    type="text"
+                    required=""
+                    placeholder="Username"
+                    class="login-textinput Small input"
+                  />
+                </div>
+                <div class="login-container3">
+                  <svg viewBox="0 0 961.6822857142856 1024" class="login-icon2">
+                    <path
+                      d="M475.429 292.571c0-60.571-49.143-109.714-109.714-109.714s-109.714 49.143-109.714 109.714c0 16.571 4 32.571 10.857 47.429-14.857-6.857-30.857-10.857-47.429-10.857-60.571 0-109.714 49.143-109.714 109.714s49.143 109.714 109.714 109.714 109.714-49.143 109.714-109.714c0-16.571-4-32.571-10.857-47.429 14.857 6.857 30.857 10.857 47.429 10.857 60.571 0 109.714-49.143 109.714-109.714zM961.714 694.857c0 13.143-52.571 65.714-65.714 65.714-14.857 0-61.143-53.714-73.143-65.714l-54.857 54.857 125.714 125.714c10.286 10.286 16 24.571 16 38.857 0 32-36.571 68.571-68.571 68.571-14.286 0-28.571-5.714-38.857-16l-383.429-383.429c-60 44.571-133.143 74.857-208.571 74.857-124.571 0-210.286-86.286-210.286-210.286 0-187.429 187.429-374.857 374.857-374.857 124 0 210.286 85.714 210.286 210.286 0 75.429-30.286 148.571-74.857 208.571l202.857 202.857 54.857-54.857c-12-12-65.714-58.286-65.714-73.143 0-13.143 52.571-65.714 65.714-65.714 4.571 0 9.714 2.286 13.143 5.714 21.143 21.143 180.571 171.429 180.571 188z"
+                    ></path>
+                  </svg>
+                  <input
+                    type="password"
+                    required=""
+                    minlength="6"
+                    placeholder="Password"
+                    class="login-textinput1 Small input"
+                  />
+                  <svg viewBox="0 0 1024 1024" class="login-icon4 button">
+                    <path
+                      d="M950.857 548.571c-54.286-84-128.571-156-217.714-201.714 22.857 38.857 34.857 83.429 34.857 128.571 0 141.143-114.857 256-256 256s-256-114.857-256-256c0-45.143 12-89.714 34.857-128.571-89.143 45.714-163.429 117.714-217.714 201.714 97.714 150.857 255.429 256 438.857 256s341.143-105.143 438.857-256zM539.429 329.143c0-14.857-12.571-27.429-27.429-27.429-95.429 0-173.714 78.286-173.714 173.714 0 14.857 12.571 27.429 27.429 27.429s27.429-12.571 27.429-27.429c0-65.143 53.714-118.857 118.857-118.857 14.857 0 27.429-12.571 27.429-27.429zM1024 548.571c0 14.286-4.571 27.429-11.429 39.429-105.143 173.143-297.714 289.714-500.571 289.714s-395.429-117.143-500.571-289.714c-6.857-12-11.429-25.143-11.429-39.429s4.571-27.429 11.429-39.429c105.143-172.571 297.714-289.714 500.571-289.714s395.429 117.143 500.571 289.714c6.857 12 11.429 25.143 11.429 39.429z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="login-container4">
+                  <button type="button" class="login-button button">
+                    Log in
+                  </button>
+                </div>
+                <div class="login-container5">
+                  <label class="login-text1 button">Forgot password?</label>
+                  <a href="signup.html" class="login-navlink button">Sign Up</a>
+                  
+                 
+                </div>
+              </form>
+            </div>
+            <div class="login-info">
+              <div class="login-container6">
+                <img
+                  alt="image"
+                  src="public/playground_assets/login1-600h.jpg"
+                  class="login-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>
